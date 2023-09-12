@@ -1,0 +1,65 @@
+[
+  {
+    "tax_slab_id": 18,
+    "tax_slab_name": "First Slab",
+    "tax_slab_description": "Annual income less than 600K will have 0% tax rate",
+    "minimum_income": 0,
+    "maximum_income": 600000,
+    "percentage": 0,
+    "additional_amount": 0
+  },
+  {
+    "tax_slab_id": 19,
+    "tax_slab_name": "Second Slab",
+    "tax_slab_description": "Second Slab Description",
+    "minimum_income": 600000,
+    "maximum_income": 1200000,
+    "percentage": 2.5,
+    "additional_amount": 0
+  },
+  {
+    "tax_slab_id": 20,
+    "tax_slab_name": "Third Slab",
+    "tax_slab_description": "Third Tax Slab",
+    "minimum_income": 1200000,
+    "maximum_income": 2400000,
+    "percentage": 12.5,
+    "additional_amount": 15000
+  },
+  {
+    "tax_slab_id": 21,
+    "tax_slab_name": "Fourth Slab",
+    "tax_slab_description": "Income above 2400000 and below 3600000 will have to pay 22.5% tax with 165000 additional amount.",
+    "minimum_income": 2400000,
+    "maximum_income": 3600000,
+    "percentage": 22.5,
+    "additional_amount": 165000
+  },
+  {
+    "tax_slab_id": 22,
+    "tax_slab_name": "Fifth Tax Slab",
+    "tax_slab_description": "Fifth Tax Slab",
+    "minimum_income": 3600000,
+    "maximum_income": 6000000,
+    "percentage": 27.5,
+    "additional_amount": 435000
+  },
+  {
+    "tax_slab_id": 23,
+    "tax_slab_name": "Sixth Tax Slab",
+    "tax_slab_description": "Sixth Tax Slab",
+    "minimum_income": 6000000,
+    "maximum_income": 12000000,
+    "percentage": 35,
+    "additional_amount": 1095000
+  },
+  {
+    "tax_slab_id": 24,
+    "tax_slab_name": "Seventh Tax Slab",
+    "tax_slab_description": "Seventh Tax Slab",
+    "minimum_income": 12000000,
+    "maximum_income": 12000000000000,
+    "percentage": 35,
+    "additional_amount": 2955000
+  }
+]
